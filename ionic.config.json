@@ -1,5 +1,7 @@
 {
   "name": "CITPT-227-60_+_CITPT-413-60_Final_Project",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,14 +1,25 @@
 <ion-header>
   <ion-toolbar>
     <ion-title>
-      Ionic Blank
+      Random Act of Kindness
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <div>
+    <p>The world is a better Place when everyone is kind to eachother</p>
+    <p>This app was created to be a reminder and give new ideas of ways that you can be kind everyday</p>
   </div>
+  <div>
+    <h3>Generate Additional<br>Acts of Kindness</h3>
+    <ion-button (click)="generateNum()" color="primary" expand="block">Generate</ion-button>
+  </div>
+  <div id="idea">
+    <h2 id="idea_title"></h2>
+    <p id="idea_description"></p>
+    <p id="contributor_name"></p>
+    <p id="date_added"></p>
+  </div>
+
 </ion-content>
